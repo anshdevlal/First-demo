@@ -1,0 +1,328 @@
+   :root {
+       --green: rgb(65, 164, 65);
+   }
+
+   a {
+       text-decoration: none;
+       color: white;
+
+   }
+
+   a:hover {
+       color: aqua;
+   }
+
+   * {
+       margin: 0;
+       padding: 0;
+   }
+
+   nav {
+       display: flex;
+       justify-content: space-around;
+       background-image: linear-gradient(to right, rgb(11, 10, 10), rgb(66, 66, 66));
+       color: white;
+       font-family: "Poppins", sans-serif;
+       height: 50px;
+       padding: 10px;
+       align-items: center;
+       font-size: 25px;
+
+   }
+
+   nav ul {
+       list-style: none;
+       display: flex;
+       gap: 20px;
+   }
+
+   .hero {
+       display: flex;
+       justify-content: space-around;
+       background-image: linear-gradient(to right, rgb(78, 71, 71), rgb(42, 42, 42));
+       color: white;
+       align-items: center;
+   }
+
+   .hero-left {
+       font-family: "Poppins", sans-serif;
+
+   }
+
+   .photo {
+       width: 45vw;
+       border-radius: 50px;
+       border: 2px solid white;
+
+
+   }
+
+   .first-text {
+       font-size: 50px;
+       font-weight: 700;
+   }
+
+   .second-text {
+       font-size: 30px;
+   }
+
+   button {
+       font-family: "Roboto", sans-serif;
+       font-weight: 500;
+   }
+
+   .button1 {
+       width: 110px;
+       height: 50px;
+       margin: 50px;
+       background-color: transparent;
+       color: var(--green);
+       border: 2px solid var(--green);
+       border-radius: 10px;
+       font-size: 20px;
+       padding: 5px;
+       cursor: pointer;
+   }
+
+   .button2 {
+       width: 150px;
+       height: 50px;
+       margin: 50px;
+       background-color: var(--green);
+       color: rgb(255, 255, 255);
+       border: 1px solid rgb(255, 255, 255);
+       border-radius: 10px;
+       font-size: 20px;
+       padding: 5px;
+       cursor: pointer;
+   }
+
+   .about {
+       border-top: 1px solid white;
+       display: flex;
+       flex-direction: row-reverse;
+       justify-content: space-around;
+       background-image: linear-gradient(to right, rgb(78, 71, 71), rgb(42, 42, 42));
+
+   }
+
+   .about-left {
+       justify-items: center;
+       width: 50vw;
+
+   }
+
+   .about h2 {
+       width: 250px;
+       font-size: 50px;
+       font-family: "Roboto", sans-serif;
+       font-weight: 800;
+       border: 2px solid bisque;
+       ;
+       border-radius: 20px;
+       padding: 5px;
+       margin: 10px;
+       margin-bottom: 20px;
+       position: relative;
+       top: 10px;
+       text-align: center;
+       color: bisque;
+
+   }
+
+   .about-left p {
+       font-family: "Poppins", sans-serif;
+       font-size: 25px;
+       text-align: center;
+       width: 40vw;
+       margin: 10px;
+       padding-top: 40px;
+       color: antiquewhite;
+
+   }
+
+   .about img {
+       width: 35vw;
+       border-radius: 50px;
+       border: 2px solid white;
+   }
+
+   .our-services {
+       background-color: rgb(36, 36, 36);
+       color: white;
+       border-top: 2px solid white;
+   }
+
+   .our-services h2 {
+       text-align: center;
+       font-family: "Poppins", sans-serif;
+       font-size: 35px;
+       margin-bottom: 50px;
+   }
+
+   .services {
+       display: flex;
+       text-align: center;
+       justify-content: center;
+       gap: 100px;
+   }
+
+   .box img {
+       width: 100px;
+       margin-top: 15px;
+
+   }
+
+   .box {
+       width: 400px;
+       background-color: rgb(0, 0, 0);
+       border-radius: 5px;
+       height: 320px;
+       box-shadow: 0px 0px 10px rgba(120, 120, 120, 0.2);
+
+   }
+
+   .box h2 {
+       font-family: "Poppins", sans-serif;
+       margin: 5px 0;
+   }
+
+   .box p {
+       font-family: "poppins", sans-serif;
+       font-size: 15px;
+       font-weight: 200;
+       padding: 10px;
+
+   }
+
+   /* <!-- contact us--------- --> */
+   .contact {
+       color: white;
+       background-image: linear-gradient(to right, rgb(25, 25, 25), rgb(63, 63, 63));
+       border-top: 2px solid white;
+   }
+
+   .container {
+       display: flex;
+       justify-content: space-around;
+   }
+
+   .contact-right img {
+       width: 35vw;
+       margin: 5px;
+   }
+
+   .field img {
+       width: 25px;
+       margin-top: 10px;
+       margin-right: 20px;
+   }
+
+   .contact-left h2 {
+       font-size: 45px;
+       text-align: center;
+       font-family: "poppins", sans-serif;
+   }
+
+   .contact-left p {
+       font-size: 20px;
+       width: 30vw;
+       font-family: "poppins", sans-serif;
+   }
+
+   .contact-card {
+       display: flex;
+   }
+
+   .field {
+       margin: 30px 0 10px 0;
+       font-family: "poppins", sans-serif;
+
+   }
+
+   /* footer-------- */
+   .footer {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 70px;
+       background-color: black;
+       color: white;
+       text-decoration: underline;
+   }
+
+
+   @media screen and (max-width: 850px) {
+       nav {
+           flex-direction: column;
+           height: auto;
+
+
+       }
+
+       .nav {
+           font-weight: 700;
+       }
+
+       nav ul {
+           list-style: none;
+           display: flex;
+           gap: 16px;
+           font-size: 15px;
+
+
+       }
+
+       .hero {
+
+           flex-direction: column-reverse;
+           text-align: center;
+       }
+
+       .about-left p {
+
+           width: 80vw;
+
+       }
+.about img {
+    width: 80vw;}
+       .about {
+
+           flex-direction: column-reverse;
+
+           align-items: center;
+       }
+         .services {
+       display: flex;
+       text-align: center;
+       justify-content: center;
+       gap: 100px;
+       flex-direction: column;
+       align-items: center;
+       padding-bottom: 10px;
+       
+   }
+   .contact-left p {
+    width: 50vw;
+    font-size: 15px;
+        
+}
+.contact-left h2 {
+            font-size: 30px;}
+
+    .footer {
+    
+    font-size: 15px;
+}
+.about-left p {
+    font-size: 17px;}
+    .box {
+    width: 80vw;
+    height: auto;}
+    .button1{
+        margin: 10px;
+    }
+    .button2{
+        margin: 10px;
+    }
+   }
